@@ -28,7 +28,9 @@ req.on("end",function(){
     res.end(generateHtml("not found","the url is not correct"))
 }
 }
-
+()=>{
+ console.log("hello")
+}
 
 
 let server = http.createServer(requestHandler)
